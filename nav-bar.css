@@ -1,0 +1,72 @@
+html,body{
+    margin:0;
+    padding:0;
+    background-color: rgb(20,25,50);
+}
+.container{
+    width:100vw;
+    display: grid;
+    grid-template-rows: 1fr ;
+}
+
+/*Heading wrapper section*/
+.wrapper{
+    width: 100vw;
+    height:40vh;
+    background-color: rgb(3, 145, 145);
+    display: grid;
+    grid-template-rows: 80% 20%;
+    margin-bottom: 10px;
+}
+.wrapper>.heading>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.wrapper>.heading>h2{
+    position: relative;
+    bottom: 120px;
+    left: 0px;
+    color:red ;
+    text-align: center;
+}
+.wrapper>.heading{/*
+    background-image: url("idea1Prototype1.PNG");
+    background-repeat:no-repeat;*/
+    width:100vw;
+    height: 100%;
+}
+
+/*LInks section*/
+.links{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.links>a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.links>a:hover{
+    color:#f500008f;
+    transform: translateY(-4.4px);
+}
+
+
+/*Content*/
+.content{
+    width: 40vw;
+    margin:auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    padding:20px;
+}
+.content>.heading{
+    color: rgba(255, 62, 62, 0.644);
+}
+.content>.main{
+    font-size: large;
+    font-family: 'Lucida Sans Unicode','Trebuchet MS',  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(29, 201, 121, 0.829);
+}
